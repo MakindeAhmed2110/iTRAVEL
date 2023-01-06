@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        @import url('index.css');
+    </style>
+ </head>
+ <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+           <i class="fa fa-bars"></i>    
+        </label>
+        <label class="logo"><span>i</span>TRAVEL</label>
+        <ul>
+            <li><a class="nav-nav" href="index.html">Home</a></li>
+            <li><a href="about.html" class="nav-nav">About</a></li>
+            <li><a href="#" onclick="myMum()" class="nav-nav">Locations</a></li>
+            <li><a href="gallery.html" class="nav-nav">Gallery</a></li>
+            <li><a href="#" onclick="myMum()" class="nav-nav">Bookings</a></li>
+             <li><a href="sign-in.html"><div class="sign-in ">Sign-In</div></a></li>
+            <li><button type="sign-up" class="sign-up">Creating already</button></li>
+        </ul>
+     </nav>
+     <div class="box" id="box">
+        <form autocomplete="off">
+            <h2 id="h2-one">Create a free account</h2>
+            <div class="always">
+                <div class="inputBox">
+                    <input type="text" id="fullname" required>
+                <span>Full Name</span>
+                <in></in>
+                </div>
+               <div class="inputBox">
+                <input type="email" required>
+                <span>Email Address</span>
+                <in></in>
+               </div>
+            </div>
+            <div class="always2">
+                <div class="inputBox">
+                <input type="phone" required>
+                <span>Phone Number</span>
+                <in></in>
+                </div>
+                <div class="inputBox">
+                <input type="password" id="myInput"  required>
+                <span>Password</span>
+                <in></in>
+                </div>
+            </div>  
+           <div class="always3">
+            <div class="yummy-one">
+                <input type="checkbox" onclick="myFunction()"  class="checkbox">
+                <span id="password">Show Password</span>
+            </div>
+            <div class="yummy">
+                <input type="checkbox"  class="checkbox">
+                <span>Do you want to recieve notifications<br> weekly from this site</span>
+             </div>     
+           </div>
+           <input type="submit" onclick="myMakinde()"  value="Sign Up">
+        </form>
+           
+    </div>
+    <script src="index.js">  
+    </script>
+ </body>
+ </html>
