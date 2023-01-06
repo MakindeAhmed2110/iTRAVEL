@@ -1352,6 +1352,7 @@ form.example::after {
  }
  form.example input[type=text]{
   width: 60%;
+   padding-left : 20px;
    display : block;
    margin-right : auto;
    margin-left : auto;
