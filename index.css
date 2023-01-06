@@ -1352,6 +1352,9 @@ form.example::after {
  }
  form.example input[type=text]{
   width: 60%;
+   display : block;
+   margin-right : auto;
+   margin-left : auto;
  }
  .developer br{
   display: block;
