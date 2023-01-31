@@ -313,7 +313,7 @@ a:hover {
   padding-top: 10px;
 }
 .form-container label {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: bold;
   font-family : 'be vietnam pro', sans-serif;
@@ -386,6 +386,7 @@ a:hover {
 
 .features p {
   padding-top: 20px;
+  font-family : 'be vietnam pro', sans-serif;
 }
 .features .learn {
   padding-top: 40px;
@@ -432,7 +433,7 @@ nav ul li a.unshown {
 
 .section-eight-header {
   text-align: center;
-
+  font-family : 'be vietnam pro', sans-serif;
   font-size: 28px;
   font-weight: bold;
   padding-top: 5px;
@@ -1313,7 +1314,7 @@ form.example::after {
   }
   .box1 p,
   .box2 p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .section-eleven img {
     display: block;
