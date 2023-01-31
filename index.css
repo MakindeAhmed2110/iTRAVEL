@@ -8,6 +8,7 @@
 @import url('https://fonts.cdnfonts.com/css/amsipro-bold');
 @import url('https://fonts.cdnfonts.com/css/olympiques');
 @import url('https://fonts.cdnfonts.com/css/lmao');
+@import url('https://fonts.cdnfonts.com/css/be-vietnam-pro');
 @import url('animate.css');
 
 
@@ -315,6 +316,7 @@ a:hover {
   padding-top: 10px;
   font-size: 24px;
   font-weight: bold;
+  font-family : 'be vietnam pro', sans-serif;
 }
 .header {
   display: none;
